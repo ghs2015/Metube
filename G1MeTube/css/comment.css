@@ -1,0 +1,22 @@
+@charset "utf-8";
+.message_tag {
+border-bottom:1px solid gray;
+	height: 60px;
+	width: 510px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.name {
+	text-align: right;
+	float: right;
+	width: 220px;
+	padding-left: 10px;
+}
+.message {
+	text-align: left;
+	float: left;
+	width: 280px;
+}
+

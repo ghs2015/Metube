@@ -1,0 +1,31 @@
+.ratings {
+overflow:   visible;
+position:   relative;
+margin-left: auto;
+margin-right: auto;
+width:      140px;
+height:     20px;
+}
+.ratings_stars {
+background: url('../images/star_blank.png') no-repeat;
+	    background-size: 16px 19px;
+float:      left;
+height:     16px;
+padding:    1px;
+width:      19px;
+}
+.ratings_vote {
+background: url('../images/star_overs.png') no-repeat;
+	    background-size: 16px 19px;
+}
+.ratings_over {
+background: url('../images/star_voted.png') no-repeat;
+	    background-size: 16px 19px;
+}
+
+.total_votes {  
+top: 0px;  
+left: 110;  
+padding-top: 1px;
+position:   absolute;  
+}
